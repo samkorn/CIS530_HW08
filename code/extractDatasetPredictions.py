@@ -66,7 +66,7 @@ def main(args):
 
 
 if __name__ == '__main__':
-    f = "data_lex_test.tsv"
+    f = "/Users/sam/Python/CIS530/CIS530_HW08/data/bless2011/data_lex_test.tsv"
     pp.pprint(convertExtractionsToDict(f))
     # args = parser.parse_args()
     # pp.pprint(args)
