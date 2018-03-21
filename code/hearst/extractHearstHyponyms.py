@@ -21,10 +21,10 @@ def extractHearstPatterns(inputwikifile, hearstPatterns):
     lines_read = 0
 
     with open(inputwikifile, 'r') as f:
-        for i, line in enumerate(f):
-        # for line in f:
-            if i > 10000:
-                break
+        # for i, line in enumerate(f):
+        for line in f:
+            # if i > 10000:
+            #     break
             lines_read += 1
             line = line.strip()
             if not line:
