@@ -1,0 +1,394 @@
+the Dark Knight	fictional opening weekend total
+Pirates	fictional opening weekend total
+walleye	large predatory fish specie
+trout	large predatory fish specie
+bass	large predatory fish specie
+northern pike	large predatory fish specie
+muskellunge	large predatory fish specie
+sauger prey	large predatory fish specie
+Lee Kau Yan Memorial School	foreign country
+International Harvester	large company
+General Motors	large company
+Ford	large company
+a table	furniture
+chest	furniture
+a little ant	different representation
+a little cockroach	different representation
+electric guitar	modern electric instrument
+electric bass	modern electric instrument
+synthesizer	modern electric instrument
+drum	modern electric instrument
+motorcycle	small vehicle
+scooter	small vehicle
+bicycle	small vehicle
+trishaw	small vehicle
+enhanced respiratory	functional organ
+skeletal system	functional organ
+bottom trawl	other gear
+fish traps	other gear
+carp	coarse fish
+the wolf	dog
+carbon dioxide	gas
+carbon monoxide	gas
+soy	plant product
+derivative	plant product
+Paul Oakenfold	djs
+Tiesto	djs
+Sasha	djs
+Digweed	djs
+Paul Van Dyk	djs
+dog	unconventional instrument
+cat sound	unconventional instrument
+frog	amphibious animal
+toad	amphibious animal
+newt	amphibious animal
+salamander	amphibious animal
+Amphibious Ferals	amphibious animal
+the snow goose	specie
+genuine wood	the Rootes Group team
+leather	the Rootes Group team
+air conditioning	the Rootes Group team
+a desk	furniture
+table	furniture
+mockup	furniture
+carp	some modern fish
+information study	other field
+art	other field
+psychology	other field
+education	other field
+use a drill	pastime
+deer	animal horn
+Nalgonda	andhra pradesh
+Miryalaguda	andhra pradesh
+Hyderabad	andhra pradesh
+Guntur	andhra pradesh
+Nellore	andhra pradesh
+Secunderabad	andhra pradesh
+Tirupathi	andhra pradesh
+Dachepalli	andhra pradesh
+the violin	orchestral string
+the cello	orchestral string
+spice	luxury item
+glass	luxury item
+Veolia	private bus company
+the reading	the UK
+Leeds Festivals	the UK
+a train	transportation
+bus station	transportation
+a National Highway	transportation
+a Hermès Birkin bag	a particular fashion accessory
+telephone	everyday mean
+television	everyday mean
+record	everyday mean
+Camelot Way	Berrywood Road
+the Cat	book
+gasoline	petroleum product
+diesel fuel	petroleum product
+Bunker C	petroleum product
+heating oil	petroleum product
+Damien	this sequence
+apple	fruit
+blackberry	fruit
+blueberry	fruit
+cantaloupe	fruit
+cherry	fruit
+cranberry	fruit
+grape	fruit
+pear	fruit
+plum	fruit
+raspberry	fruit
+strawberry	fruit
+parsley	light flavour
+lemon	light flavour
+mint	light flavour
+snake	reptillian specie
+lizard	reptillian specie
+a general store	small commercial outlet
+bank	small commercial outlet
+garage	small commercial outlet
+painting	pollute activity
+aerosol spray	pollute activity
+motorcycle	vehicle
+scooter	vehicle
+Miscanthus	Woody crop
+Willow	Woody crop
+Poplar	Woody crop
+a toilet	enable camping
+fridge	enable camping
+the cuatro	instrument
+bass	instrument
+percussion	instrument
+receptionist	odd job
+suppling	various beneficial reason
+relax	various beneficial reason
+a porcupine	a animal
+Terrorizer	magazine
+Metal Hammer	magazine
+Kerrang	magazine
+insurance	extra product
+global positioning satellite	extra product
+New York Minute	feature
+haddock	use
+whiting	use
+Tamarack	other specie
+the Butana breed	the region
+hood	front end sheet metal
+fender make	front end sheet metal
+Douglas Fir	coniferous specie
+Western Hemlock	coniferous specie
+Western Red Cedar	coniferous specie
+the giant panda	the world
+the cat bear	the world
+the takin	the world
+goat antelope	the world
+sleep	painful endurance exercise
+a cat	a stable companion
+goat	a stable companion
+special air drag	innovation
+daikon	vegetable seed
+Napa cabbage	vegetable seed
+saxophone	many extra lesson
+clarinet	many extra lesson
+drum	many extra lesson
+singing	many extra lesson
+violin	many extra lesson
+guitar	many extra lesson
+bazooka	eclectic weaponry
+dynamite	eclectic weaponry
+grenade	eclectic weaponry
+cluster bomb	eclectic weaponry
+home missile	eclectic weaponry
+banana bomb	eclectic weaponry
+the infamous holy hand grenade	eclectic weaponry
+ancient bison	animal
+Mastodon	animal
+Ice Age camel	animal
+giant ground sloth	animal
+fuse different genre	the experimental aspect
+studio trickery	the experimental aspect
+a school	a institution
+college	a institution
+ATV	power sport engine
+dirt bike engine	power sport engine
+mango	tea
+peach	tea
+lychee	tea
+green apple	tea
+passion fruit	tea
+orange	tea
+milk tea flavor	tea
+Radio City Music Hall	regular movie theater
+the beaver	vegetation several important specie
+carve wood panel	ornamentation
+capital	ornamentation
+stencil wall pattern	ornamentation
+elaborate plaster work	ornamentation
+Josh Brown	own generation
+Brand New sunset	Thai band
+Royal Albert Hall	the world
+the apple	other fruit
+pear	other fruit
+loquat	other fruit
+sequin	luxurious material
+chiffon	luxurious material
+fur	luxurious material
+the clothes	luxurious material
+hare	small game specie
+pheasant	small game specie
+rabbit	small game specie
+mink	small game specie
+Strabo	classic source
+Pliny the Elder	classic source
+a cat	entertainment involve place a animal
+a Prairie Home Companion	the public radio satellite
+the Thistle	the public radio satellite
+Shamrock	the public radio satellite
+the premiere	original work
+a dome pool	many asset
+a private bus	many asset
+Vocals	many instrument
+violin	many instrument
+viola	many instrument
+cello	many instrument
+double bass	many instrument
+trumpet	many instrument
+trombone	many instrument
+bass trombone	many instrument
+tuba	many instrument
+Soprano Saxophone	many instrument
+Alto Saxophone	many instrument
+Tender Saxophone	many instrument
+Baritone Saxophone	many instrument
+Flute	many instrument
+Clarinet	many instrument
+Oboe	many instrument
+Bassoon	many instrument
+Bass Guitar	many instrument
+Drums	many instrument
+percussion	many instrument
+Usinger	the historic Old World Third Street
+suspension	the model
+tire compliance	the model
+frame	the model
+Trout Unlimited	organization
+International Game Fish Association	organization
+Coastal Conservation Association	organization
+the Billfish Foundation	organization
+Folk Tonight	folk music TV show
+a lariat	the shank
+MYX	local TV station
+MTV Philippine	local TV station
+the mr20 chair	Lilly Reich
+deer	wildlife
+coyote	wildlife
+hawk	wildlife
+squirrel	wildlife
+fox	wildlife
+woodpecker	wildlife
+quail	wildlife
+sugar cane juice	popular local delicacy
+Honda	maker
+Porsche	maker
+romaine lettuce	fresh vegetable matter
+spinach	fresh vegetable matter
+philosophy	student population
+geography	student population
+pigskin bean	other typical local recipe
+tripe	other typical local recipe
+roast sausage	other typical local recipe
+order equipment	oversee practical matter
+the mobile phone carrier	mobile telecommunication network
+red pine	tree specie
+jack pine	tree specie
+black spruce	tree specie
+Expo	overlook Big Beat own club
+the Tunnel Club	overlook Big Beat own club
+the mole rat	eutherian mammal rodent
+a digital audio player	a portable electronic device
+a cell phone	a portable electronic device
+other portable electronic device	a portable electronic device
+ReBoot	television show
+teletext	a datum service
+a dump truck	a toy
+Radio City Music Hall	venue
+the Grateful Dead jam band fan scene	the early underground scene
+a Handheld PC	a mobile device
+mobile phone	a mobile device
+any other portable device	a mobile device
+spotlight	device
+car headlight	device
+Par Cans	device
+LED housing	device
+Yo La Tengo	band
+Camper Van Beethoven	band
+HBO	cable service
+Showtime	cable service
+albatross	large seabird
+the violin	a string instrument
+tuna	bony saltwater fish
+billfish	bony saltwater fish
+jet engine	gas turbine
+high speed ship engine	gas turbine
+small scale power station	gas turbine
+businessman	daytime television
+college student	daytime television
+deer	animal meat
+moose	animal meat
+the people	local Toronto act
+Elvis Presley	other famous legend
+John Ritter	other famous legend
+a public library computer	program
+meat	industry
+a taxidermist theme	each episode
+duck	migratory bird
+goose	migratory bird
+lap steel	instrument
+banjo	instrument
+mandolin	instrument
+dobro	instrument
+the good meal	topic
+the Kinugawa onsen	train
+a hovercraft	other vehicle
+a Stealth bomber	other vehicle
+a motorcycle	other vehicle
+Alternative Frequency	extra feature
+fox	wild carnivore
+cat	wild carnivore
+bear	wild carnivore
+gamble	minigames
+a airship	a large aircraft
+bomber	a large aircraft
+the Desert Eagle	large pistol
+telescope eye	other fancy goldfish variety
+fantail	other fancy goldfish variety
+ryukins	other fancy goldfish variety
+orandas	other fancy goldfish variety
+counter	furniture
+table top	furniture
+a edge	furniture
+arris	furniture
+a television studio	a professional television production environment
+cable broadcast facility	a professional television production environment
+commercial production facility	a professional television production environment
+regular TV ad	medium
+radio ad	medium
+baseball bat	these area
+baseball	these area
+bacon	animal product
+egg yolk	animal product
+Jerry Springer	various program
+Las Chimanas	the neighboring island
+Cachicamo	the neighboring island
+Borracha	the neighboring island
+full cloth	many other industrial use
+coat	item
+Australia	item
+child car booster seat	certain consumer product
+potato	other Andean produce
+green lima bean	other Andean produce
+weapon	vehicle
+good tire	vehicle
+good engine	vehicle
+diabolo	object manipulation
+devil stick	object manipulation
+cigar box manipulation	object manipulation
+ibex	wildlife
+argali	wildlife
+elk	wildlife
+wolf	wildlife
+wolverine	wildlife
+musk deer	wildlife
+brown bear	wildlife
+Siberian moose	wildlife
+pewter	other metal
+diarrhoea	health problem
+the Black Assassins	band
+hell	band
+that cause	traffic
+a whale	a marine mammal
+seal	a marine mammal
+dolphin	a marine mammal
+a electric bass	the bass instrument
+a double bass	the bass instrument
+Wing Chun	Kung Fu
+Wing Tsun	Kung Fu
+butterfly sword	Kung Fu
+Ernst Jorgensen	Presley biographer
+the producer	Presley biographer
+RMN	various radio station
+DZRH	various radio station
+melt butter	simple cooking
+cheese	simple cooking
+a lid	simple cooking
+PBS	outside customer
+NPR	outside customer
+the Mutual Broadcasting System	outside customer
+the piano	instrument
+guitar	instrument
+the Renault Kangoo	utility vehicle
+Opel Combo	utility vehicle
+Citroën Berlingo	utility vehicle
+Peugeot Partner	utility vehicle
+VIP protection	scenario
+urban warfare	scenario
+other close quarter battle	scenario

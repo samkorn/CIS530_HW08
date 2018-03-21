@@ -21,7 +21,10 @@ def extractHearstPatterns(inputwikifile, hearstPatterns):
     lines_read = 0
 
     with open(inputwikifile, 'r') as f:
-        for line in f:
+        for i, line in enumerate(f):
+        # for line in f:
+            if i > 10000:
+                break
             lines_read += 1
             line = line.strip()
             if not line:
@@ -29,8 +32,8 @@ def extractHearstPatterns(inputwikifile, hearstPatterns):
             line_split = line.split("\t")
             sentence, lemma_sent = line_split[0].strip(), line_split[1].strip()
 
-            hypo_hyper_pairs = hearstPatterns.find_hyponyms(sentence)
-            # hypo_hyper_pairs = hearstPatterns.find_hyponyms(lemma_sent)
+            # hypo_hyper_pairs = hearstPatterns.find_hyponyms(sentence)
+            hypo_hyper_pairs = hearstPatterns.find_hyponyms(lemma_sent)
 
             hearstExtractions.extend(hypo_hyper_pairs)
 
@@ -54,8 +57,7 @@ def main(args):
     print(args.inputwikifile)
     hearstPatterns = HearstPatterns(extended=False)
 
-    hypo_hyper_pairs = extractHearstPatterns(args.inputwikifile,
-                                             hearstPatterns)
+    hypo_hyper_pairs = extractHearstPatterns(args.inputwikifile, hearstPatterns)
 
     writeHypoHyperPairsToFile(hypo_hyper_pairs, args.outputfile)
 
