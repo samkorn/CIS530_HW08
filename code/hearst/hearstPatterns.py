@@ -17,7 +17,10 @@ class HearstPatterns(object):
         # format is <hearst-pattern>, <hypernym_location>
         # so, what this means is that if you apply the first pattern,
         self.__hearst_patterns = [
-                ("(NP_\w+ (, )?such as (NP_\w+ ? (, )?(and |or )?)+)", "first")]
+            ("(NP_\w+ (,)?(such as |including |especially )(NP_\w + ? (,)?(and |or )?)+)", "first"),
+            ("(such NP_\w+ as (NP_\w+ ? (,)?(and |or )?)+)", "first"),
+            ("(NP_\w+ (, NP_\w+)*( ,)? (and |or )other NP_\w+)", "last")
+        ]
 
         ''' IMPLEMENT ADDITIONAL HEARST PATTERNS ABOVE '''
         if extended:

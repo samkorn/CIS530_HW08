@@ -5,3 +5,4 @@ printf "\nTraining Data Performance:\n"
 python3 computePRF.py --goldfile ../data/bless2011/data_lex_train.tsv --predfile hearst/output/hearst_tr.txt
 printf "\nValidation Data Performance:\n"
 python3 computePRF.py --goldfile ../data/bless2011/data_lex_val.tsv --predfile hearst/output/hearst_val.txt
+terminal-notifier -message "Hearst extraction complete. Please refer back to terminal window." -title "Process Complete"

@@ -57,7 +57,7 @@ oven	tee	False
 jacket	gameplay	False
 vest	clothes	False
 giraffe	mustache	False
-apple	produce	False
+apple	produce	True
 carp	merchandising	False
 birch	elm	False
 moth	hornet	False
@@ -202,7 +202,7 @@ blouse	underpants	False
 parsley	autumn	False
 guitar	background-color	False
 stereo	lawn	False
-rabbit	food	False
+rabbit	food	True
 grasshopper	hornet	False
 phone	goody	False
 gorilla	giraffe	False
@@ -551,7 +551,7 @@ ferry	recruitment	False
 lettuce	leaf	False
 birch	branch	False
 eagle	fader	False
-lettuce	produce	False
+lettuce	produce	True
 lion	jaw	False
 corn	ear	False
 robe	superconstruction	False
@@ -584,7 +584,7 @@ willow	root	False
 moth	dragonfly	False
 gun	interior	False
 pig	gorilla	False
-deer	animal	False
+deer	animal	True
 snake	crocodile	False
 plum	respiration	False
 castle	donut	False
@@ -659,7 +659,7 @@ bear	chordate	False
 cathedral	portal	False
 bowl	routine	False
 grenade	detonator	False
-apple	food	False
+apple	food	True
 dolphin	deer	False
 villa	guest	False
 bag	paper	False
@@ -711,7 +711,7 @@ cloak	angling	False
 cranberry	morale	False
 rifle	holder	False
 bear	plasticine	False
-willow	tree	False
+willow	tree	True
 acacia	boat	False
 sieve	plate	False
 bus	hobby	False
@@ -773,7 +773,7 @@ cat	fracas	False
 wardrobe	ignorance	False
 ambulance	gymnasium	False
 guitar	hole	False
-birch	tree	False
+birch	tree	True
 grenade	rifle	False
 acacia	branch	False
 train	quadrant	False
@@ -784,7 +784,7 @@ stereo	reservation	False
 bomb	artefact	False
 cat	province	False
 jacket	artefact	False
-television	device	False
+television	device	True
 rifle	vow	False
 grasshopper	locust	False
 ferry	ambulance	False
@@ -830,7 +830,7 @@ bear	bobby	False
 turtle	shell	False
 cat	fanatic	False
 lettuce	beet	False
-turtle	snake	False
+turtle	snake	True
 blouse	proprietor	False
 lion	cat	False
 fork	removal	False
@@ -844,7 +844,7 @@ dove	bounce	False
 shirt	contract	False
 hospital	table	False
 hospital	roof	False
-pheasant	game	False
+pheasant	game	True
 villa	bathroom	False
 acacia	birch	False
 grenade	expression	False
@@ -1339,7 +1339,7 @@ tuna	catfish	False
 dagger	carapace	False
 television	understanding	False
 lizard	leg	False
-corn	produce	False
+corn	produce	True
 sparrow	weighting	False
 corn	spinach	False
 spinach	paddler	False
@@ -1574,7 +1574,7 @@ axe	tweezer	False
 deer	composition	False
 robin	foot	False
 fork	anniversary	False
-lettuce	food	False
+lettuce	food	True
 eagle	botanist	False
 bus	battleship	False
 ambulance	oil	False
@@ -1699,7 +1699,7 @@ grenade	case	False
 bomb	shotgun	False
 hornet	researcher	False
 stereo	history	False
-rabbit	animal	False
+rabbit	animal	True
 sparrow	fatherhood	False
 moth	leg	False
 dishwasher	plug	False
@@ -1747,7 +1747,7 @@ frigate	ferry	False
 parsley	bean	False
 rifle	chamber	False
 washer	taxpayer	False
-dolphin	animal	False
+dolphin	animal	True
 castle	wall	False
 giraffe	jukebox	False
 grasshopper	italic	False
@@ -1788,7 +1788,7 @@ acacia	pine	False
 screwdriver	dancing	False
 cathedral	penny	False
 stereo	tape	False
-trout	fish	False
+trout	fish	True
 giraffe	off-road	False
 dolphin	donkey	False
 lion	deer	False
@@ -1913,7 +1913,7 @@ sparrow	eagle	False
 penguin	glycogen	False
 bowl	globalisation	False
 grenade	bow	False
-salmon	fish	False
+salmon	fish	True
 castle	window	False
 cathedral	door	False
 shirt	pattern	False
@@ -1922,7 +1922,7 @@ tuna	vertebrate	False
 car	artefact	False
 frigate	rank	False
 hammer	plier	False
-pig	animal	False
+pig	animal	True
 couch	velvet	False
 chisel	blade	False
 vest	hem	False
@@ -2046,7 +2046,7 @@ cucumber	bubble	False
 bomb	disease	False
 plum	fruit	True
 dove	chordate	False
-blouse	clothing	False
+blouse	clothing	True
 tuna	deadline	False
 rifle	charge	False
 bus	ferry	False
@@ -2242,7 +2242,7 @@ poplar	program	False
 jacket	fracture	False
 bus	artifact	False
 pheasant	penguin	False
-mackerel	fish	False
+mackerel	fish	True
 robe	abuse	False
 cathedral	bench	False
 television	approach	False
@@ -2412,7 +2412,7 @@ dove	glass	False
 screwdriver	plastic	False
 ambulance	program	False
 beet	lettuce	False
-penguin	animal	False
+penguin	animal	True
 snake	treatment	False
 couch	extent	False
 shirt	artifact	False
@@ -2448,7 +2448,7 @@ ferry	genetics	False
 sieve	scalpel	False
 sieve	artefact	False
 missile	bow	False
-deer	herbivore	False
+deer	herbivore	True
 ambulance	existance	False
 salmon	chordate	False
 parsley	cilantro	False
@@ -2594,8 +2594,8 @@ spinach	voter	False
 rabbit	grid	False
 dishwasher	inside	False
 carp	animal	False
-pine	tree	False
-screwdriver	tool	False
+pine	tree	True
+screwdriver	tool	True
 ferry	trench	False
 lion	Gothic	False
 apple	cranberry	False
@@ -2725,7 +2725,7 @@ dagger	gun	False
 lion	stream	False
 ambulance	testing	False
 cloak	vest	False
-apricot	fruit	False
+apricot	fruit	True
 toaster	drive	False
 snake	tooth	False
 television	fuselage	False
@@ -2759,9 +2759,9 @@ apple	Goth	False
 tuna	resolution	False
 pineapple	noon	False
 train	ferry	False
-carp	fish	False
+carp	fish	True
 dove	sparrow	False
-eagle	raptor	False
+eagle	raptor	True
 screwdriver	trade	False
 jacket	weblog	False
 tuna	installation	False
@@ -2839,7 +2839,7 @@ parsley	turnip	False
 car	equation	False
 turnip	corn	False
 hammer	utensil	False
-bear	animal	False
+bear	animal	True
 chisel	LaserJet	False
 penguin	chordate	False
 bear	magnitude	False
@@ -2905,7 +2905,7 @@ turtle	scale	False
 fork	kerosene	False
 hornet	screen	False
 bear	rabbit	False
-corn	food	False
+corn	food	True
 apple	plum	False
 castle	stairs	False
 bowl	restriction	False
@@ -3218,7 +3218,7 @@ car	fitness	False
 snake	animal	False
 pineapple	subunit	False
 gun	factsheets	False
-pine	conifer	False
+pine	conifer	True
 wardrobe	blouse	False
 cloak	torque	False
 robe	clothes	False
