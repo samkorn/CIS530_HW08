@@ -1,6 +1,8 @@
-import os
 import pprint
 import argparse
+from collections import Counter
+import numpy as np
+import re
 
 pp = pprint.PrettyPrinter()
 parser = argparse.ArgumentParser()
@@ -15,12 +17,30 @@ def extractRelevantPaths(wikideppaths, wordpairs_labels, outputfile):
         col1: word1
         col2: word2
         col3: deppath
+
+
+        Step 1: Get all "True" pairs in training data
+        Step 2: Each time a pair is found in deppaths, record the path (also check if the reversal of the pair exists)
+        Step 3: Record the TYPE of the path alongside path
+        Step 4: Apply some statistical function to the deppath counts such that overfitting is avoided
+        Step 5: Write the paths to the outputfile, as well as the TYPE
+
     '''
 
-    print(wikideppaths)
+    # Step 1
+    true_pairs = set()
+    for w1, w2 in wordpairs_labels:
+        label = wordpairs_labels[(w1, w2)]
+        if label:
+            true_pairs.add((w1, w2))
 
+
+    # Step 2
     lines_read = 0
-    relevantDepPaths2counts = {}
+
+    relevantDepPaths2counts = dict()
+    blacklist = set()
+    deppaths2type = {}
     with open(wikideppaths, 'r') as f:
         for line in f:
             line = line.strip()
@@ -28,10 +48,34 @@ def extractRelevantPaths(wikideppaths, wordpairs_labels, outputfile):
                 continue
 
             lines_read += 1
+            hypo, hyper, deppath = line.split("\t")
 
-            word1, word2, deppath = line.split("\t")
+            # Step 3
+            # checks if pair exists in true training data pairs, and then the type of deppath
+
+            matches = re.match("(\w|\/|\<|\>)*X\/(\w+)\/\w+\<Y\/\w+\/conj", deppath)
+            if not matches:
+                if (hypo, hyper) in true_pairs and deppath:
+                    if deppath not in relevantDepPaths2counts:
+                        relevantDepPaths2counts.update({deppath: 0})
+                    relevantDepPaths2counts.update({deppath: relevantDepPaths2counts[deppath] + 1})
+                    deppaths2type.update({deppath: 'forward'})
+                elif (hyper, hypo) in true_pairs and deppath:
+                    if deppath not in relevantDepPaths2counts:
+                        relevantDepPaths2counts.update({deppath: 0})
+                    relevantDepPaths2counts.update({deppath: relevantDepPaths2counts[deppath] + 1})
+                    deppaths2type.update({deppath: 'reverse'})
+                else:
+                    if deppath not in relevantDepPaths2counts:
+                        relevantDepPaths2counts.update({deppath: 0})
+
+                    else:
+                        count = relevantDepPaths2counts[deppath]
+                        relevantDepPaths2counts.update({deppath: 0})
 
             '''
+            IMPLEMENTED ABOVE 
+            
                 IMPLEMENT METHOD TO EXTRACT RELEVANT DEPEDENCY PATHS HERE
 
                 Make sure to be clear about X being a hypernym/hyponym.
@@ -42,11 +86,25 @@ def extractRelevantPaths(wikideppaths, wordpairs_labels, outputfile):
                 3. Negative Paths: If this path exists, definitely not a hyper/hyponym relations
                 4. etc......
             '''
+    # filter out all that are less than or equal to 0
+    relevantDepPaths2counts = {key: relevantDepPaths2counts[key] for key in relevantDepPaths2counts
+                               if relevantDepPaths2counts[key] > 0}
 
+    # Step 4
+    # for now, our statistical filter uses mean and standard deviation
+    path_counts = list(relevantDepPaths2counts.values())
+    # print(path_counts)
+    mean = np.mean(path_counts)
+    std = np.std(path_counts)
+    print("Mean = " + str(mean))
+    print("STD = +" + str(std))
+    final_paths = [(deppath, deppaths2type[deppath]) for deppath in relevantDepPaths2counts
+                   if relevantDepPaths2counts[deppath] >= 1]
+
+    # Step 5
     with open(outputfile, 'w') as f:
-        for dep_path in relevantDepPaths2counts:
-            if relevantDepPaths2counts[dep_path] > 0:
-                f.write(dep_path)
+        for dep_path, path_type in final_paths:
+                f.write(dep_path + "\t" + path_type)
                 f.write('\n')
 
 

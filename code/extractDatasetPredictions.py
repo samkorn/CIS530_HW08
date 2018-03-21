@@ -69,9 +69,8 @@ def main(args):
 
 
 if __name__ == '__main__':
-    f = path + "/data/bless2011/data_lex_test.tsv"
-    pp.pprint(convertExtractionsToDict(f))
-    # args = parser.parse_args()
+    # f = path + "/data/bless2011/data_lex_test.tsv"
+    # pp.pprint(convertExtractionsToDict(f))
+    args = parser.parse_args()
     # pp.pprint(args)
-    # main(args)
-    # "data/bless2011/data_lex_test.tsv"
+    main(args)

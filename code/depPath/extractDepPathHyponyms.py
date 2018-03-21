@@ -15,24 +15,57 @@ def extractHyperHypoExtractions(wikideppaths, relevantPaths):
         col1: word1
         col2: word2
         col3: deppath
+
+
+        Step 1: Check if the path is in relevantPaths
+        Step 2: If the path is in relevantPaths, check the type of path
+        Step 3: Depending on path type, store (hyponym, hypernym) as word1,word2 or word2,word1
     '''
 
+    depPathExtractions = set()
+    with open(wikideppaths, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+
+            w1, w2, deppath = line.split("\t")
+            if deppath in relevantPaths:
+                if relevantPaths[deppath] == "forward":
+                    depPathExtractions.add((w1, w2))
+                elif relevantPaths[deppath] == "reverse":
+                    depPathExtractions.add((w2, w1))
+
     # Should finally contain a list of (hyponym, hypernym) tuples
-    depPathExtractions = []
 
     '''
         IMPLEMENT
     '''
-
+    # print(depPathExtractions)
     return depPathExtractions
 
 
 def readPaths(relevantdeppaths):
+
+    deppaths2type = {}
+
+    with open(relevantdeppaths) as rdp:
+        inputdata = rdp.read().strip()
+
+        inputdata = inputdata.split("\n")
+
+        for line in inputdata:
+            data = line.split("\t")
+            path = data[0]
+            path_type = data[1]
+            deppaths2type.update({path: path_type})
+
     '''
+    IMPLEMENTED ABOVE
         READ THE RELEVANT DEPENDENCY PATHS HERE
     '''
-
-    # return relevantPaths
+    # print(deppaths2type)
+    return deppaths2type
 
 
 def writeHypoHyperPairsToFile(hypo_hyper_pairs, outputfile):
@@ -46,7 +79,7 @@ def writeHypoHyperPairsToFile(hypo_hyper_pairs, outputfile):
 
 
 def main(args):
-    print(args.wikideppaths)
+    # print(args.wikideppaths)
 
     relevantPaths = readPaths(args.relevantdeppaths)
 

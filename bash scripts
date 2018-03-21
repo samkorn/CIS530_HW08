@@ -1,0 +1,25 @@
+~ Extract hyponym patterns from Hearst ~
+
+python code/hearst/extractHearstHyponyms.py --inputwikifile data/wikipedia_sentences.txt --outputfile output/hearstext.txt
+
+~ Filter hyponym patterns from Hearst ~
+python code/extractDatasetPredictions.py --extractionsfile output/hearstext.txt --trdata data/bless2011/data_lex_train.tsv --valdata data/bless2011/data_lex_val.tsv --testdata data/bless2011/data_lex_test.tsv --trpredfile output/trpred.txt --valpredfile output/valpred.txt --testpredfile output/testpred.txt
+
+
+***********
+
+~  extract relevant dependency paths ~
+python code/depPath/extractRelevantDepPaths.py --wikideppaths data/new_wikipedia_deppaths.txt --trfile data/bless2011/data_lex_train.tsv --outputfile output/deppaths.txt
+
+~ extract hypo/hyper pairs from relevant dependency paths ~
+python code/depPath/extractDepPathHyponyms.py --wikideppaths data/new_wikipedia_deppaths.txt --relevantdeppaths output/deppaths.txt --outputfile output/deppathhypos.txt
+
+~ Filter hyponym patterns from deppaths ~
+python code/extractDatasetPredictions.py --extractionsfile output/deppathhypos.txt --trdata data/bless2011/data_lex_train.tsv --valdata data/bless2011/data_lex_val.tsv --testdata data/bless2011/data_lex_test.tsv --trpredfile output/trpreddepp.txt --valpredfile output/valpreddepp.txt --testpredfile output/testpreddepp.txt
+
+~ PRF train depp ~
+
+python code/computePRF.py --goldfile data/bless2011/data_lex_train.tsv --predfile output/trpreddepp.txt
+
+~ PRF dev depp ~
+python code/computePRF.py --goldfile data/bless2011/data_lex_val.tsv --predfile output/valpreddepp.txt
